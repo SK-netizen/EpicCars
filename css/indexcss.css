@@ -1,0 +1,59 @@
+* {
+    margin: 0;
+    padding: 0;
+    border: 0;
+}
+
+#total #TituloPrincipal {
+    width: 100%;
+    color: #14213d;
+    font-family: 'Bakbak One';
+    font-size: 1.3em;
+    background: #e5e5e5;
+}
+
+#TituloPrincipal h1 {
+    padding: 1% 0 1% 5%;
+}
+
+#menuArriva {
+    background: #fca311;
+    padding: 0;
+    font-family: "Bakbak One";
+    font-size: 1.3em;
+}
+
+.botoneSub {
+    box-shadow: 1px 1px 1px 1px rgba(0,0,0,0.2);
+    text-decoration: none;
+    margin: 0;
+    border: 0;
+    padding: 1% 0px;
+    border-radius: 4% 6%;
+}
+
+.botoneSub {
+    width: 22%;
+    display: inline-block;
+    text-align: center;
+}
+
+#menuArriva a:visited {
+    color: #e5e5e5;
+    background: #fca311;
+}
+
+#menuArriva a:link {
+    color: #e5e5e5;
+    background: #fca311;
+}
+
+#menuArriva a:active {
+    color: white;
+    background: #14213d;
+}
+
+#menuArriva a:hover {
+    color: white;
+    background: #14213d;
+}

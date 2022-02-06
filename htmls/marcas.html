@@ -1,0 +1,40 @@
+<!doctype html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport"
+          content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>EpicCars</title>
+    <link href="../css/marcascss.css" rel="stylesheet"/>
+    <script src='https://code.jquery.com/jquery-1.12.4.min.js'></script>
+    <link href='https://fonts.googleapis.com/css?family=Bakbak One' rel='stylesheet'>
+    <script src="../js/frame.js"></script>
+</head>
+<body>
+<div id="total">
+    <div id="TituloPrincipal">
+        <h1>
+            EpicCars
+        </h1>
+    </div>
+
+    <div id="menuArriva">
+        <a href="../index.html" class="botoneSub" id="inicio">Inicio</a>
+        <a href="marcas.html" class="botoneSub" id="marcas">Marcas</a>
+        <a href="categorias.html" class="botoneSub" id="categorias">Categorias</a>
+        <a href="motorizaciones.html" class="botoneSub" id="motoriazaciones">Motorizaciones</a>
+    </div>
+
+    <nav class="seleccionLateral">
+        <button onclick="loadHTML('marcas/maclaren.html','maclaren')" id="maclaren">Maclaren</button>
+        <button onclick="loadHTML('marcas/mercedes.html','mercedes')" id="mercedes">Mercedes</button>
+        <button onclick="loadHTML('marcas/honda.html','honda')" id="honda">Honda</button>
+    </nav>
+    <div class="centro">
+        <iframe id="iframe" width="800px" height="400" src="marcas/maclaren.html"></iframe>
+    </div>
+</div>
+
+</body>
+</html>
