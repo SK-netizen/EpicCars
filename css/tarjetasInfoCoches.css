@@ -4,12 +4,16 @@
     border: 0;
 }
 
-
 .tarjetaInfoCoche{
-    position :relative;
     background: #8ecae6;
+    box-shadow: 1px 1px 1px 1px rgba(0,0,0,0.2);
+    width:55%;
+    /*
+    position :relative;
     margin:0 0 220px 10px;
+    */
 }
+/*
 .fotoVehiculo{
     position: absolute;
     float: left;
@@ -20,3 +24,4 @@
     margin: 0 0 0 400px;
 
 }
+*/
